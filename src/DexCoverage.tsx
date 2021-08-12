@@ -41,6 +41,4 @@ const DexCoverage: React.FC<DexCoverageProps> = ({
   );
 };
 
-DexCoverage.displayName = "DexCoverage";
-
 export default DexCoverage;

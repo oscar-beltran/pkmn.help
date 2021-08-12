@@ -99,8 +99,6 @@ function PageSelector({
   );
 }
 
-PageSelector.displayName = "PageSelector";
-
 interface PaginatorProps<T> {
   urlForPage: (page: number) => string;
   currentPage: number;
@@ -147,5 +145,3 @@ export default function Paginator<T>({
     </div>
   );
 }
-
-Paginator.displayName = "Paginator";

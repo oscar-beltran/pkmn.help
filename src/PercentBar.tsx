@@ -18,5 +18,3 @@ export function PercentBar({ value, max }: PercentBarProps) {
     </div>
   );
 }
-
-PercentBar.displayName = "PercentBar";

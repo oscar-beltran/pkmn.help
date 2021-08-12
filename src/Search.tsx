@@ -71,5 +71,3 @@ export default function Search({ updateSearch, search }: SearchProps) {
     </div>
   );
 }
-
-Search.displayName = "Search";

@@ -178,5 +178,3 @@ export default function ScreenWeaknessCoverage({
     </main>
   );
 }
-
-ScreenWeaknessCoverage.displayName = "ScreenWeaknessCoverage";

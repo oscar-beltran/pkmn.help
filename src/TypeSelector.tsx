@@ -83,5 +83,3 @@ export default function TypeSelector({
     </div>
   );
 }
-
-TypeSelector.displayName = "TypeSelector";

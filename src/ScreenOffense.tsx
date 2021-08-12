@@ -62,5 +62,3 @@ export default function ScreenOffense({
     </main>
   );
 }
-
-ScreenOffense.displayName = "ScreenOffense";

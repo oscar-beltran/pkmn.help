@@ -37,8 +37,6 @@ function MonsterType({ type, index }: MonsterTypeProps) {
   );
 }
 
-MonsterType.displayName = "MonsterType";
-
 interface MonsterProps {
   pokemon: Pokemon;
 }
@@ -112,8 +110,6 @@ function Monster({ pokemon }: MonsterProps) {
     </div>
   );
 }
-
-Monster.displayName = "Monster";
 
 interface DexProps {
   allPokemon: Pokemon[];
@@ -224,5 +220,3 @@ export default function ScreenPokedex({
     </main>
   );
 }
-
-ScreenPokedex.displayName = "ScreenPokedex";

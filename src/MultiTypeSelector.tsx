@@ -77,5 +77,3 @@ export default function MultiTypeSelector({
     </div>
   );
 }
-
-MultiTypeSelector.displayName = "MultiTypeSelector";
