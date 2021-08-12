@@ -187,3 +187,5 @@ export function Offense({
 }
 
 Offense.displayName = "Matchups.Offense";
+
+export default Defense;
