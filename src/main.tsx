@@ -1,22 +1,10 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
-import "tachyons";
-import App from "./App";
-import ErrorBoundary from "./ErrorBoundary";
-import ScreenError from "./ScreenError";
-import "./style.css";
-import { Type } from "./data";
+import ScreenDefense from "./ScreenDefense";
 
-export function cssType() {
+export function cssType(type: any) {
+  type;
   return "";
 }
 
-ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>,
-  document.querySelector("#app")
-);
+ReactDOM.render(<ScreenDefense />, document.querySelector("#app"));
